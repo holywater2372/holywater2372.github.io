@@ -1,0 +1,229 @@
+br {
+  color: pink; /* Example color */
+  text-decoration: none; /* Example to remove underline */
+}
+
+br:hover {
+  text-decoration: underline; 
+  color: pink;/* Example hover effect */
+}
+
+body {
+  font-family: neue-haas-unica,sans-serif;
+  background-color: #151c2b;
+  color: #A4B1CD;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  background-color: #151c2b;
+  color: #c5d3e3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+  color:#c5d3e3;
+}
+
+.header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header nav ul li {
+  margin-left: 20px;
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  color: #c5d3e3;
+  font-size: 16px;
+}
+
+.header nav ul li a:hover {
+  color: #9fef00;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  display: flex;
+  padding: 20px;
+}
+
+.profile {
+  width: 25%;
+  margin-right: 20px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.profile div {
+  line-height: 1.6;
+}
+
+.profile div h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.profile div p a {
+  color: #c5d3e3;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.profile div p a.linkedin:hover,
+.profile div p a.github:hover {
+  color:#9fef00; /* Change this to your preferred hover color for LinkedIn */
+  text-decoration: underline;
+}
+
+
+.content {
+  width: 75%;
+}
+
+.content h1 {
+  font-size: 24px;
+  color: #c5d3e3;;
+}
+
+.content h2 {
+  color: #9fef00;
+}
+
+.content time {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.content p {
+  margin: 10px 0;
+}
+
+.toc {
+  background-color: #293b56;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.toc h3 {
+  margin: 0;
+  color: #c5d3e3;
+}
+
+.toc ul {
+  list-style: none;
+  padding: 0;
+}
+
+.toc ul li {
+  background-color: #151c2b;
+  padding: 10px;
+  border-bottom: 1px solid #9fef00;
+}
+
+.toc ul li:last-child {
+  border-bottom: none;
+}
+
+article h2 {
+  margin: 20px 0 10px;
+}
+
+article p {
+  line-height: 1.6;
+}
+
+.cutie-water{
+  box-shadow: 0 0 20px #149692;
+  
+}
+
+.content h1 {
+  font-size: 40px; /* Adjust this value as needed */
+  color:#c5d3e3;;
+  
+  
+}
+
+a:hover {
+  color:#9fef00; /* Change this to your preferred hover color for LinkedIn */
+  text-decoration: underline;
+}
+
+
+ a {
+ color:#c5d3e3;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200%;
+  }
+
+  .profile img {
+    margin-bottom: 10px;
+  }
+
+  .toc ul li {
+    padding: 5px;
+  }
+
+  .toc ul li a {
+    font-size: 14px;
+  }
+
+  .content h1 {
+    font-size: 20px;
+  }
+
+  .content h2 {
+    font-size: 18px;
+  }
+
+  .content time {
+    font-size: 12px;
+  }
+
+  .content {
+    width: 500%;
+  }
+
+  .toc {
+    width: 100%;
+  }
+}

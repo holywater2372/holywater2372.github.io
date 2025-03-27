@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+:root {
+  --primary: #b8b9b8;
+  --secondary: #ffffff;
+  --background: #000000;
+  --line-space: 0.5rem;
+  --letter-space: 0.05rem;
+  --terminal-font:'Inconsolata', monospace;
+  --font-size: 1rem;
+}
+
+
+
+body {
+  background-color: var(--background);
+  overflow: hidden;
+  height: 100vh;
+  padding: 8px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+#terminal {
+  padding: 15px;
+  
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  color: var(--primary);
+  font-size: var(--font-size);
+  font-family: var(--terminal-font);
+  letter-spacing: var(--letter-space);
+}
+
+#prerender > * {
+  margin: var(--line-space) 0;
+}
+
+
+
+#killfetch img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  user-select: none;
+}
+
+
+
+.error {
+  color: #660002;
+}
+
+.message {
+  color: var(--secondary);
+}
+
+.glow-text {
+  color: var(--secondary);
+  text-shadow: 0 0 5px var(--secondary);
+}
+
+
+#output > * {
+  margin: var(--line-space) 0;
+}
+
+#help-table {
+  color: var(--primary);
+  border-collapse: collapse;
+  font-size: var(--font-size);
+}
+
+#help-table tr {
+  margin: var(--line-space);
+}
+
+.help-options {
+  color: var(--primary);
+  text-shadow: 0 0 5px var(--primary);
+}
+
+.help-description {
+  color: var(--primary);
+  padding-left: 2rem;
+}
+
+.prompt-wrapper {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#prompt {
+  display: inline-block;
+}
+
+#terminal-input {
+  font-size: 1rem;
+  color: var(--primary);
+  font-family: monospace;
+  background-color: var(--background);
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: var(--letter-space);
+  outline: none;
+  border: 0;
+  display: inline-block;
+  flex: 1 1 auto;
+}
+
+
+
+#date{
+  color: var(--secondary);
+}
+
+
+
+
+/* Scroll-Bar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 10px;
+  height: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #525252;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
