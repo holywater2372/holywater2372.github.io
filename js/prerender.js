@@ -4,10 +4,9 @@ promptDOM.innerHTML = prompt;
 
 
 
-let welcome = `<p>H0lyWat3r's decent wesbite [Version 07.12.2000.xxxx]
+let welcome = `<p>holywater's cmd.exe wesbite template [Version 07.12.2000.xxxx]
 </p><p>
-(c) H0lyWat3r Corporation. No rights reserved.</p>
-<p>The website was inspired by KillSwitch a.k.a. Paavai Aram</p>`;
+(c) H0lyWat3r Corporation. No rights reserved.</p>`;
 
 
 preRenderDOM.innerHTML += welcome;
