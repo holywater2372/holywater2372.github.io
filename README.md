@@ -6,10 +6,9 @@ Welcome to **Terminal Web**, a unique personal website built to emulate a comman
 
 ## 📌 Features
 
-- 🎮 Terminal-style interface (just like your favorite shell!)
+- 🎮 Terminal-style interface (just like your favorite shell `cmd.exe`!)
 - 📝 Personal blogs integrated directly into the interface
-- 🧭 Simple keyboard navigation and commands
-- ⚡ Lightweight and fast
+- 🧭 Simple custom windows commands
 - 🔧 Fully client-side—no backend needed
 
 ---
@@ -18,15 +17,6 @@ Welcome to **Terminal Web**, a unique personal website built to emulate a comman
 
 ![screenshot](assets/demo.png) <!-- Replace with actual path if available -->
 
-Or try it live 👉 [your-live-demo-link](https://your-website-link.com)
+Or try it live 👉 [live-website](https://holywater2372.github.io)
 
 ---
-
-## 🛠️ Installation
-
-Clone the repository and open `index.html` in your browser.
-
-```bash
-git clone https://github.com/yourusername/terminal-web.git
-cd terminal-web
-open index.html # or use your favorite browser
