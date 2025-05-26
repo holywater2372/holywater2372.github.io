@@ -1,6 +1,6 @@
 # 🖥️ Terminal Web | CLI-style Personal Website & Blog
 
-Welcome to **Terminal Web**, a unique personal website built to emulate a command-line interface. Navigate through my world as if you're in a terminal—explore my personal blogs, projects, and thoughts, all from a stylish command-prompt-based UI.
+Welcome to **Terminal Web**, a unique personal website built to emulate a cmde.exe/powershell.exe interface. Navigate through my world as if you're in a terminal—explore my personal blogs, projects, and thoughts, all from a stylish command-prompt-based UI.
 
 ---
 
@@ -14,8 +14,6 @@ Welcome to **Terminal Web**, a unique personal website built to emulate a comman
 ---
 
 ## 📷 Demo
-
-![screenshot](assets/demo.png) <!-- Replace with actual path if available -->
 
 Or try it live 👉 [live-website](https://holywater2372.github.io)
 
