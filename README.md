@@ -2,6 +2,8 @@
 
 Welcome to my personal website built to emulate a `cmde.exe/powershell.exe` interface. Navigate through my world as if you're in a terminal, explore my personal blogs, projects, and thoughts, all from a stylish command-prompt-based UI.
 
+More about me on on [holywater.dev](https://holywater.dev) :)
+
 ---
 
 
